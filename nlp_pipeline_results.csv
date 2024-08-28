@@ -1,0 +1,13 @@
+Model Config,Best Parameters,Best CV Score,Test Accuracy,Best Fit Time
+NB Stemmer CountVect,"{'classifier__alpha': 0.5, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 1)}",0.854824757206036,0.8554,204.63126735687257
+NB Lemmatizer TfidfVect,"{'classifier__alpha': 1.0, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 1)}",0.8541314256505987,0.85348,3.2938581466674806
+NB Stemmer TfidfVect,"{'classifier__alpha': 1.0, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 2)}",0.8527313812031914,0.85272,5.96574444770813
+NB Lemmatizer CountVect,"{'classifier__alpha': 0.1, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 1)}",0.8562914540969396,0.85556,3.312631368637085
+LGR Stemmer CountVect,"{'classifier__C': 1.0, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 2)}",0.8597714860990733,0.85888,6.21576247215271
+LGR Lemmatizer TfidfVect,"{'classifier__C': 1.0, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 1)}",0.8602914923217103,0.85824,3.4539157867431642
+LGR Stemmer TfidfVect,"{'classifier__C': 10.0, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 2)}",0.8602914780985399,0.86008,6.193637990951538
+LGR Lemmatizer CountVect,"{'classifier__C': 1.0, 'vectorizer__max_df': 0.5, 'vectorizer__max_features': 2000, 'vectorizer__ngram_range': (1, 2)}",0.8603848123208214,0.85916,4.010002183914184
+DC Stemmer CountVect,"{'classifier__max_depth': 7, 'vectorizer__max_df': 1.0, 'vectorizer__max_features': 1000, 'vectorizer__ngram_range': (1, 2)}",0.6029280334244504,0.59916,195.13818759918212
+DC Lemmatizer TfidfVect,"{'classifier__max_depth': 7, 'vectorizer__max_df': 1.0, 'vectorizer__max_features': 500, 'vectorizer__ngram_range': (1, 2)}",0.5911012591950575,0.59136,3.751149129867554
+DC Stemmer TfidfVect,"{'classifier__max_depth': 7, 'vectorizer__max_df': 1.0, 'vectorizer__max_features': 1000, 'vectorizer__ngram_range': (1, 2)}",0.6028613632019912,0.59916,5.857379150390625
+DC Lemmatizer CountVect,"{'classifier__max_depth': 7, 'vectorizer__max_df': 1.0, 'vectorizer__max_features': 500, 'vectorizer__ngram_range': (1, 1)}",0.5911946014178724,0.59124,3.262406921386719

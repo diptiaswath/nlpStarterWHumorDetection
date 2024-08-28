@@ -1,12 +1,12 @@
 # NLP Primer with Humor Detection in Texts
 
-**Objective**
+## **Objective**
 
 This mini-project aims to evaluate the effectiveness of different text preprocessing and vectorization techniques in conjunction with three classification models—Naïve Bayes, Logistic Regression, and Decision Trees—for the task of humor classification in text. Using the [ColBERT dataset from Kaggle](https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection), this project will explore various approaches with text pre-processing and feature extraction with classification models, serving as an introductory exploration into the rich field of Natural Language Processing (NLP).
 
 ## **Goal**
 
-## Identify the most effective combination of text preprocessing steps, vectorization methods, and classifiers for classifying humor in textual data. The project seeks to enhance understanding of how different NLP techniques influence model performance, providing foundational insights into text classification and sentiment analysis.
+Identify the most effective combination of text preprocessing steps, vectorization methods, and classifiers for classifying humor in textual data. The project seeks to enhance understanding of how different NLP techniques influence model performance, providing foundational insights into text classification and sentiment analysis.
 
 ## **Summary**
 
